@@ -1,0 +1,10 @@
+/* Глобальные стили */
+@import "variables.scss";
+@import "mixins.scss";
+@import "fonts.scss";
+@import "global.scss";
+
+/* Блоки */
+@import "blocks/page.scss";
+@import "blocks/visually-hidden.scss";
+@import "blocks/container.scss";

@@ -1,0 +1,17 @@
+.container {
+  width: 320px;
+  padding: 0 25px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 110;
+
+  @media (min-width: $tablet) {
+    width: 768px;
+    padding: 0 40px;
+  }
+
+  @media (min-width: $desktop) {
+    width: 1440px;
+    padding: 0 60px;
+  }
+}

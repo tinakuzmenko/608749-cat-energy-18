@@ -31,22 +31,22 @@
                 />
               </picture>
             </a>
-            <button class="nav__menu-toggler" type="button">
-              Открыть / Закрыть меню
+            <button class="nav__menu-toggler nav__menu-toggler--active nav__menu-toggler--no-js" type="button">
+              <span class="visually-hidden">Открыть / Закрыть меню</span>
             </button>
           </div>
-          <ul class="nav__menu-list">
-            <li class="nav__menu-item">
-              <a class="nav__menu-link" href="">Каталог продукции</a>
-            </li>
-            <li class="nav__menu-item">
-              <a class="nav__menu-link" href="">Подбор программы</a>
-            </li>
-            <li class="nav__menu-item">
-              <a class="nav__menu-link" href="">Главная</a>
-            </li>
-          </ul>
         </div>
+        <ul class="nav__menu-list nav__menu-list--active">
+          <li class="nav__menu-item">
+            <a class="nav__menu-link" href="">Главная</a>
+          </li>
+          <li class="nav__menu-item">
+            <a class="nav__menu-link" href="">Каталог продукции</a>
+          </li>
+          <li class="nav__menu-item">
+            <a class="nav__menu-link" href="">Подбор программы</a>
+          </li>
+        </ul>
       </nav>
       <section class="header__content">
         <div class="container">
@@ -92,22 +92,22 @@
         <div class="container">
           <h2 class="visually-hidden">Наши программы</h2>
           <ul class="programs__list">
-            <li class="program programs__list-item">
-              <h3 class="program__title">Похудение</h3>
-              <p class="program__description">
+            <li class="program-block programs__list-item">
+              <h3 class="program-block__title">Похудение</h3>
+              <p class="program-block__description">
                 Ваш кот весит больше собаки и почти утратил способность лазить
                 по деревьям? Пора на диету! Cat Energy Slim поможет вашему
                 питомцу сбросить лишний вес.
               </p>
-              <a class="program__link" href="">Каталог Slim</a>
+              <a class="program-block__link" href="">Каталог Slim</a>
             </li>
-            <li class="program programs__list-item">
-              <h3 class="program__title">Набор Массы</h3>
-              <p class="program__description">
+            <li class="program-block programs__list-item">
+              <h3 class="program-block__title">Набор Массы</h3>
+              <p class="program-block__description">
                 Заработать авторитет среди дворовых котов и даже собак? Серия
                 Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!
               </p>
-              <a class="program__link" href="">Каталог Pro</a>
+              <a class="program-block__link" href="">Каталог Pro</a>
             </li>
           </ul>
         </div>
@@ -308,5 +308,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="js/navigation.js"></script>
   </body>
 </html>

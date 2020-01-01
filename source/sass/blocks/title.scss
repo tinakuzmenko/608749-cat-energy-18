@@ -1,0 +1,12 @@
+.title {
+  font-family: "Oswald", "Arial", sans-serif;
+  margin: 0;
+
+  &--h1 {
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 1;
+    text-align: center;
+    color: $white;
+  }
+}

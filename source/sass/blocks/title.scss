@@ -9,4 +9,11 @@
     text-align: center;
     color: $white;
   }
+
+  &--h2 {
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 1.67;
+    color: $font-black;
+  }
 }

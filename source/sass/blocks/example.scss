@@ -1,0 +1,144 @@
+.example {
+  background-color: $medium-grey;
+  padding-top: 17px;
+  padding-bottom: 36px;
+}
+
+.example__content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.example__title {
+  margin-bottom: 23px;
+}
+
+.example__description {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.29;
+  color: $grey;
+  margin-top: 0;
+  margin-bottom: 24px;
+  width: 266px;
+}
+
+.example__facts-wrapper {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 14px;
+}
+
+.example__fact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+  position: relative;
+}
+
+.example__fact-number {
+  display: block;
+  width: 124px;
+  border: solid 1px $very-light-grey;
+  padding: 13px 17px 17px;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1;
+  color: $font-black;
+  text-transform: uppercase;
+}
+
+.example__fact-description {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1;
+  color: $grey;
+  width: 90px;
+  padding: 0 15px;
+  background-color: $medium-grey;
+  position: absolute;
+  bottom: -15px;
+}
+
+.example__spending {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
+}
+
+.example__spending-description {
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.43;
+  color: $font-black;
+  text-transform: uppercase;
+  margin-right: 5px;
+}
+
+.example__price {
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.43;
+  color: $font-black;
+  text-transform: uppercase;
+}
+
+.example__slider-images {
+  display: block;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: 32px;
+}
+
+.example__image-wrapper {
+  &--before {
+    display: none;
+  }
+
+  &--after {
+    display: none;
+  }
+
+  &--active {
+    display: block;
+  }
+}
+
+.example__image {
+  position: relative;
+  display: block;
+  width: 320px;
+  height: 240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.example__togglers-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 38px 0 43px;
+}
+
+.example__toggler {
+  background: transparent;
+  border: none;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.25;
+  color: $font-black;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  cursor: pointer;
+  padding: 0;
+}

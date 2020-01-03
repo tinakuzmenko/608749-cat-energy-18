@@ -74,9 +74,27 @@
 }
 
 .program-block__link {
+  display: inline-flex;
+  align-self: flex-start;
   font-size: 16px;
   font-weight: normal;
   text-transform: uppercase;
   line-height: 1;
   color: $font-black;
+  padding-right: 37px;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 12px;
+    right: 0;
+    top: 3px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url("../../img/icon-right-arrow-long.svg");
+  }
 }

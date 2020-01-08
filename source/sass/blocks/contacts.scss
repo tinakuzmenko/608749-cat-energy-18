@@ -1,3 +1,28 @@
 .contacts {
   background-color: $white;
 }
+
+.contacts__address-block {
+  display: flex;
+  padding: 28px 5px 26px 0;
+}
+
+.contacts__description {
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1.25;
+  color: $font-black;
+  margin: 0;
+  width: 143px;
+}
+
+.contacts__address {
+  margin: 0;
+  width: 140px;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.43;
+  color: $grey;
+}

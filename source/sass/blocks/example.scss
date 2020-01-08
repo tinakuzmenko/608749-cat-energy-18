@@ -117,8 +117,8 @@
 .example__image {
   position: relative;
   display: block;
-  width: 320px;
-  height: 240px;
+  max-width: 320px;
+  max-height: 240px;
   margin-left: auto;
   margin-right: auto;
 }

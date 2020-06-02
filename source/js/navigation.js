@@ -6,8 +6,8 @@ navigationToggler.classList.remove("nav__menu-toggler--active");
 navigationList.classList.remove("nav__menu-list--active");
 
 if(document.documentElement.clientWidth < 768){
-navigationToggler.addEventListener("click", function(){
-  navigationToggler.classList.toggle("nav__menu-toggler--active");
-  navigationList.classList.toggle("nav__menu-list--active");
-});
+  navigationToggler.addEventListener("click", function(){
+    navigationToggler.classList.toggle("nav__menu-toggler--active");
+    navigationList.classList.toggle("nav__menu-list--active");
+  });
 }
